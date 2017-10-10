@@ -9,6 +9,14 @@
 /composer.phar
 composer.lock
 
+# Cache, session files and logs (Symfony3)
+/var/cache/*
+/var/logs/*
+/var/sessions/*
+!var/cache/.gitkeep
+!var/logs/.gitkeep
+!var/sessions/.gitkeep
+
 # Symfony2 configuration files
 app/config/parameters.ini
 app/config/parameters.yml
